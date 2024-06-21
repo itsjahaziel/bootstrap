@@ -1,0 +1,175 @@
+body {
+  background-color: #f2f6e9;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #333;
+  padding: 1rem;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.header {
+  background-color: #333;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 8rem 0;
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.btn-outline-secondary {
+  color: #6ab446;
+  border-color: #6ab446;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #6ab446;
+  border-color: #6ab446;
+}
+
+.features {
+  padding: 4rem 0;
+}
+
+.feature-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
+.form-control {
+  border-radius: 0;
+}
+
+.btn-secondary {
+  background-color: #6ab446;
+  border-color: #6ab446;
+  color: #fff;
+  border-radius: 0;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+}
+
+.btn-secondary:hover {
+  background-color: #333;
+  border-color: #333;
+  background-image: ;
+}
+
+.background {
+  background-color: #dedec8;
+  padding: 4rem 0;
+}
+
+.team .card {
+  background: none;
+  border: none;
+  text-align: center;
+}
+
+.card-img-top {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  text-transform: uppercase;
+}
+
+.page-footer {
+  background-color: #222;
+  color: #ccc;
+  padding: 4rem 0 2rem;
+}
+
+.footer-copyright {
+  background-color: #111;
+  color: #666;
+  padding: 1rem 0;
+}
+/* styles.css */
+
+.header {
+  background-image: url("8.jpeg"); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  padding: 8rem 0;
+  position: relative; /* Ensure position is relative for absolute positioning of overlay */
+}
+
+.overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  width: 100%;
+  padding: 0 15px; /* Adjust padding as needed */
+  box-sizing: border-box; /* Ensure padding is included in width calculation */
+}
+
+.overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.overlay p {
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.btn-outline-secondary {
+  color: #6ab446;
+  border-color: #6ab446;
+}
+
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #6ab446;
+  border-color: #6ab446;
+}
